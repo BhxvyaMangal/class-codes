@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main() {
+int a,b;
+int c,d,e;
+printf("Enter first number");
+scanf("%d",&a);
+printf("Enter second number");
+scanf("%d",&b);
+
+c=a&b;
+d=a|b;
+e=a^b;
+printf("AND of two binary number is %d\n",c);
+printf("OR of two binary number is %d\n",d);
+printf("XOR of two number is %d\n",e);
+
+return 0;
+
+}

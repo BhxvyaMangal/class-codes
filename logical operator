@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main() {
+int a,b;
+int c,d,e;
+printf("Enter first number");
+scanf("%d",&a);
+printf("Enter second number");
+scanf("%d",&b);
+c=a&&b;
+d=a||b;
+e=(a||b)&&!(a&&b);
+printf("AND-AND of two number is %d\n",c);
+printf(" OR-OR of two number is %d\n",d);
+printf("XOR of two number is %d\n",e);
+
+return 0;
+
+}

@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main(){
+    float weight,height,Bmi;
+    printf("The weight in kgs is");
+    scanf("%d\n",&weight);
+    printf("The height in meters is");
+    scanf("%d\n",&height);
+    Bmi=weight/height*height;
+    if(Bmi<15){
+        printf("Starvation");
+    }
+    else if(Bmi<17.5){
+        printf("Anorexic");
+    }
+    else if(Bmi<18.5){
+        printf("Underweight");
+    }
+    else if(Bmi<24.9){
+        printf("Ideal");
+    }
+    else if(Bmi<25.9){
+        printf("Overweight");
+    }
+    else if(Bmi<39.5){
+        printf("Obese");
+    }
+    else if(Bmi>40){
+        printf("Morbidity Obese");
+    }
+      return 0;
+        
+  
+
+}
